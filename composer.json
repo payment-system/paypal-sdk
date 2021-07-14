@@ -1,0 +1,25 @@
+{
+    "name": "payment-system/paypal-sdk",
+    "description": "Paypal SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atreyu",
+            "email": "gatoburbuja@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaymentSystem\\PaypalSdk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PaymentSystem\\PaypalSdk\\Tests\\": "tests"
+        }
+    }
+}
