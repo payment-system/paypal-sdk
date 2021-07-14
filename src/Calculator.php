@@ -2,9 +2,11 @@
 
 namespace PaymentSystem\PaypalSdk;
 
-class Calculator {
+class Calculator
+{
 
-    public function sum(int $a, int $b): int {
+    public function sum(int $a, int $b): int
+    {
         return $a + $b;
     }
 }
